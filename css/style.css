@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: gainsboro;
+}
+.title{
+    font-size: 36px;
+}
+.container{
+    display: flex;
+    margin-left: 390px;
+    margin-top: 125px;
+}
+.block{
+    margin-right: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.title{
+    text-align: center;
+    margin-top: 100px;
+}
+.rezak18mm{
+    font-size: 16px;
+    margin-top: 25px;
+    
+}
+.rubli{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.batoni{
+    display: flex;
+    background: gainsboro;
+    border:solid 1px #23bac1;
+    color: #23bac1;
+    font-weight: bold ;
+    padding: 20px 70px 20px 70px;
+    cursor: pointer;
+    margin-left: 35px;
+    margin-top: 25px;
+}
